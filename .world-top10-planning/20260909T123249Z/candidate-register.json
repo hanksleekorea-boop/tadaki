@@ -1,0 +1,17 @@
+{
+  "schema_version":"1.0","run_id":"WTP-20260909T123249Z","generated_at_utc":"2026-09-09T12:32:49Z","project_fingerprint":"git:440123df86cc7fb755a18ea1a9645d42f4392b1c","artifact_type":"candidate-register","source_artifact_ids":["OWN-006"],
+  "records":[
+    {"candidate_id":"CAND-001","name":"食べログ","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-002","name":"Rakuten Gurunavi","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-003","name":"Hot Pepper Gourmet","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-004","name":"Google Maps","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-005","name":"Tripadvisor","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-006","name":"Yelp","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-007","name":"OpenTable","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-008","name":"TableCheck","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-009","name":"AutoReserve","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]},
+    {"candidate_id":"CAND-010","name":"SAVOR JAPAN","status":"HISTORICAL_TOP10_CANDIDATE","evidence_ids":["OWN-006"]}
+  ],
+  "counts":{"records":10,"verified_current":0,"historical":10},
+  "unknowns":["현재 운영 여부·기능·가격·정책의 독립 재검증"],"warnings":["잠정 후보이며 세계 톱10 잠금 아님"]
+}

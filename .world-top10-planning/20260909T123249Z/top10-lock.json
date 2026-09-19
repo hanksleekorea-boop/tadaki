@@ -1,0 +1,1 @@
+{"schema_version":"1.0","run_id":"WTP-20260909T123249Z","generated_at_utc":"2026-09-09T12:32:49Z","project_fingerprint":"git:440123df86cc7fb755a18ea1a9645d42f4392b1c","artifact_type":"top10-lock","source_artifact_ids":["OWN-006"],"records":[],"counts":{"locked":0},"unknowns":["DISCOVERY-001 이후 후보 공식 검증"],"warnings":["G3 관문 미통과; 잠금 파일은 의도적으로 비어 있음"]}

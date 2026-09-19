@@ -1,0 +1,5 @@
+metric_id,domain,ours_status,ours_score,top10_status,top10_score,gap_id,evidence_ids
+METRIC-001,공식 근거 최신성,verified_partial,1,not_reverified,,GAP-001,EVD-OWN-001
+METRIC-002,모바일 설치·오프라인,historical_device_partial,1,not_reverified,,GAP-002,EVD-OWN-003
+METRIC-003,운영·지원 책임,unknown,,not_reverified,,GAP-008,
+METRIC-004,핵심 검색→상세→저장,browser_verified,3,historical_comparison,,GAP-012,OWN-002;OWN-010

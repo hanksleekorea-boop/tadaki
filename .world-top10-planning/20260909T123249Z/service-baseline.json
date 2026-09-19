@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "run_id": "WTP-20260909T123249Z",
+  "generated_at_utc": "2026-09-09T12:32:49Z",
+  "project_fingerprint": "git:440123df86cc7fb755a18ea1a9645d42f4392b1c",
+  "artifact_type": "service-baseline",
+  "source_artifact_ids": ["OWN-001","OWN-002","OWN-003","OWN-004","OWN-005","OWN-006"],
+  "records": [{
+    "service": "ITADAKI",
+    "version": "v5.4.20260904.1",
+    "public_status": "public-development",
+    "platforms": ["web","responsiveMobileWeb","pwa"],
+    "primary_domain_candidate": "151",
+    "secondary_domain_candidates": ["126","128","495"],
+    "verified_restaurants": 4,
+    "target_restaurants": 30,
+    "key_tasks": ["JT-01","JT-02","JT-03","JT-04","JT-05","JT-06","JT-07"]
+  }],
+  "counts": {"records": 1, "key_tasks": 7},
+  "unknowns": ["운영 주체","비공개 문의 채널","현재 OAuth 공급자 엔드포인트","현재 AdSense 송출","iPhone/Safari"],
+  "warnings": ["분류 번호는 제품 설명에서 도출한 추론이며 운영자 승인 전 잠정값"]
+}

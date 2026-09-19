@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-08-20T04:38:42Z",
+  "evidencePolicy": "사실은 파일·명령·공개 URL·기록으로, 추정은 별도 표시하며 미확인은 채우지 않는다.",
+  "service": {
+    "name": "ITADAKI",
+    "description": "한국어 사용자가 도쿄의 일본 식당을 찾고 비교해 방문을 결정하도록, 사실별 공식 출처와 확인일을 보여 주는 공개 정적 웹앱이다.",
+    "descriptionEvidence": ["02_기획/05_v4.0_맛집정보서비스_전략.md", "04_코드/apps/web/index.html"],
+    "stage": "공개 웹 시험판; 상용 운영 전",
+    "primaryUsers": "일본 방문 전 식당의 가격·규칙·혼자 방문 가능 여부를 확인하려는 한국어 사용자",
+    "problem": "여러 서비스에 흩어진 식당 정보의 최신성·규칙·출처를 방문 전에 판단하기 어렵다.",
+    "coreFlow": ["지역·장르·예산·혼자 방문 조건 검색", "카드와 상세에서 출처·확인일·규칙 확인", "찜·비교 후 공식 지도·식당 링크로 이동", "정보 오류는 이 기기에만 초안 저장"],
+    "urls": {"web": "https://hanksleekorea-boop.github.io/itadaki/", "mobile": "https://hanksleekorea-boop.github.io/itadaki/", "qr": "https://hanksleekorea-boop.github.io/itadaki/qr-itadaki.png"},
+    "platforms": {"pcWeb": true, "mobileWeb": true, "pwa": true, "nativeMobile": false},
+    "market": {"target": "한국어 사용자와 도쿄", "languages": ["한국어", "일본어 이름 병기"], "revenueModel": "미확인; v4 범위에서 예약 대행·결제·수수료는 제외"},
+    "technology": {"frontend": "정적 HTML·CSS·JavaScript", "data": "정적 JavaScript 데이터", "test": "Python pytest", "hosting": "GitHub Pages"},
+    "features": [
+      {"name": "검색·지역·장르·예산·혼자 방문 필터", "evidence": "index.html, app.js"},
+      {"name": "검증 자료와 합성 예시 자료 구분", "evidence": "verified-data.js, sample-data.js"},
+      {"name": "상세·공식 링크·지도 보조·찜·최대 두 곳 비교", "evidence": "index.html, app.js, TEST_EVIDENCE.md"},
+      {"name": "정정 요청 초안의 기기 내 저장", "evidence": "index.html, app.js; 외부 전송 없음"},
+      {"name": "설치형 웹앱과 기본 오프라인 대체", "evidence": "site.webmanifest, service-worker.js, offline.html"}
+    ],
+    "quality": {"automatedTests": 95, "virtualPersonaTest": "결정론적 1,000개 필터 조합 통과", "publicPcVerification": "검색·상세·찜·비교·정정 초안·정렬 공개 PC 기록", "android": "미실시: 연결 기기 화면 조작이 실행 환경에서 차단됨"},
+    "policySurface": {"terms": "미확인", "privacy": "미확인", "accountDeletion": "계정 없음; 로컬 초안 데이터 삭제 경로는 미확인", "operatorIdentity": "미확인"}
+  }
+}

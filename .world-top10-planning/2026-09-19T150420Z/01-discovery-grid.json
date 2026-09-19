@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "project": "이타다키",
+    "timestamp": "2026-09-19T15:04:21.050Z",
+    "version": "v3.3"
+  },
+  "engine_A": {
+    "domain_match": [
+      "이타다키 (Itadaki)",
+      "SaaS",
+      "Aggregator"
+    ],
+    "target_audience": "Global Users, Professionals",
+    "key_features": [
+      "미슐랭 예약",
+      "현지인 맛집",
+      "사진 번역"
+    ],
+    "market_size_estimate": "$10B+",
+    "core_problem_solved": "최고의 일본 로컬 맛집을 당신의 식탁 위로."
+  }
+}

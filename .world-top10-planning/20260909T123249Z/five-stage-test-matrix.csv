@@ -1,0 +1,25 @@
+test_id,task_id,category,precondition,procedure,expected,fail_rule,evidence_path
+TEST-001,TASK-1-001,normal,후보 공식 URL,필수 필드 검증,레코드 승인,필드 누락,EVD-PLANNED-001
+TEST-002,TASK-1-001,duplicate,동일 식당 2개,ID 정규화,1개만 남음,중복 노출,EVD-PLANNED-001
+TEST-003,TASK-1-001,conflict,언어판 값 충돌,충돌 표시,임의 선택 없음,한 값으로 덮음,EVD-PLANNED-001
+TEST-004,TASK-1-002,install,Android 연결,공개 v5.4 설치,standalone 실행,이전 판 설치,EVD-PLANNED-002
+TEST-005,TASK-1-002,offline,설치 완료,네트워크 차단 후 저장 보기,자료 보존,빈 화면/EVD 없음,EVD-PLANNED-002
+TEST-006,TASK-1-002,reconnect,오프라인 상태,재연결·새로고침,최신성 경고 후 갱신,자료 손실,EVD-PLANNED-002
+TEST-007,TASK-2-001,normal,정상 JSON,import/export,동일 필드,변형,EVD-PLANNED-004
+TEST-008,TASK-2-001,invalid,필드 누락 JSON,import,거부·기존 보존,부분 교체,EVD-PLANNED-004
+TEST-009,TASK-2-001,delete,저장 자료,삭제 후 복원 요청,정책 문구·삭제,무단 복원,EVD-PLANNED-004
+TEST-010,TASK-3-001,normal,검증 레코드,상세 열기,근거 배지 표시,근거 누락,EVD-PLANNED-005
+TEST-011,TASK-3-001,empty,없는 조건,검색,대체 행동,막다른 화면,EVD-PLANNED-005
+TEST-012,TASK-3-001,stale,오래된 확인일,상세 열기,경과 라벨,최신 오인,EVD-PLANNED-005
+TEST-013,TASK-4-001,accessibility,키보드/스크린리더,전체 탭,초점·문구,초점 손실,EVD-PLANNED-007
+TEST-014,TASK-4-001,performance,저속망,페이지 로드,LCP 예산 내,예산 초과,EVD-PLANNED-007
+TEST-015,TASK-4-001,ads,광고 설정,콘텐츠/광고 구분,라벨·동의,오인,EVD-PLANNED-007
+TEST-016,TASK-5-001,iphone,iPhone 준비,설치·저장·오프라인,기록 저장,미실시,EVD-PLANNED-003
+TEST-017,TASK-5-001,rotation,iPhone 준비,회전·복귀,레이아웃 유지,넘침,EVD-PLANNED-003
+TEST-018,TASK-5-001,delete,iPhone 준비,삭제·재방문,삭제 반영,잔존,EVD-PLANNED-003
+TEST-019,TASK-5-002,operator,운영자 지정,테스트 문의,수신·SLA,무응답,EVD-PLANNED-008
+TEST-020,TASK-5-002,recovery,백업 샘플,복원 훈련,자료 복구,손실,EVD-PLANNED-008
+TEST-021,TASK-5-002,incident,런북,장애 예행연습,에스컬레이션,책임 불명,EVD-PLANNED-008
+TEST-022,TASK-3-002,source,공식 자료,후보 검증,근거 ID,제목만 사용,EVD-PLANNED-009
+TEST-023,TASK-3-002,lock,10개 후보,잠금 지문,구성 불변,몰래 교체,EVD-PLANNED-009
+TEST-024,TASK-3-002,average,동일 지표,평균 재계산,ITADAKI 제외,분모 혼합,EVD-PLANNED-009

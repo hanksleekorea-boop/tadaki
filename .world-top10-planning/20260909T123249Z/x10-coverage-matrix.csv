@@ -1,0 +1,7 @@
+dimension,baseline,target,actual,coverage_percent,multiplier,status
+world_candidates,80,800,30,3.75,0.375,X10_PARTIAL_SCOPE
+benchmark_atomic_metrics,160,1600,4,0.25,0.025,X10_PARTIAL_SCOPE
+core_tasks,5,50,7,14,1.4,X10_PARTIAL_SCOPE
+decision_cells,40,400,9,2.25,0.225,X10_PARTIAL_SCOPE
+edge_cases,1000,10000,0,0,0,X10_PARTIAL_SCOPE
+negative_samples,10,100,10,10,1,X10_PARTIAL_SCOPE
